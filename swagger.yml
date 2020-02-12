@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  version: v0.0.16
+  version: v0.0.17
   title: Swagger Petstore
   license:
     name: MIT
@@ -51,7 +51,6 @@ paths:
           description: unexpected error
           schema:
             $ref: '#/definitions/Error'
-
 definitions:
   Pet:
     type: object
