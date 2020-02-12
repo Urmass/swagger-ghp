@@ -1,0 +1,26 @@
+{
+  "name": "swagger-ghpages-generator.template",
+  "version": "0.0.16",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "publish-docs": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edenlabllc/swagger-ghpages-generator.template.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/edenlabllc/swagger-ghpages-generator.template/issues"
+  },
+  "homepage": "https://github.com/edenlabllc/swagger-ghpages-generator.template#readme",
+  "dependencies": {
+    "actions-toolkit": "^2.2.0",
+    "child_process": "^1.0.2",
+    "js-yaml": "^3.13.1"
+  }
+}
